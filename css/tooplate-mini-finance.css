@@ -1147,3 +1147,20 @@ strong {
   }
 }
 
+
+
+
+/* Sidebar styling */
+#sidebarMenu {
+  background-color: #0d6efd;  /* Primary blue */
+}
+
+#sidebarMenu .nav-link {
+  color: #ffffff;  /* Make menu text white */
+}
+
+#sidebarMenu .nav-link.active {
+  background-color: #0b5ed7; /* Darker blue for active link */
+  color: #fff;
+}
+
