@@ -1163,4 +1163,30 @@ strong {
   background-color: #0b5ed7; /* Darker blue for active link */
   color: #fff;
 }
+/* Footer accessibility & polish */
+.site-footer {
+  background-color: #111;   /* dark background for contrast */
+  color: #f1f1f1;           /* light text, contrast ratio > 7:1 */
+  font-size: 15px;          /* slightly bigger for readability */
+  line-height: 1.6;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.site-footer a {
+  color: #0d6efd;           /* accessible blue */
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: #198754;           /* your high-contrast green */
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+  .site-footer {
+    font-size: 14px;        /* slightly smaller on narrow screens */
+    padding: 15px 5px;
+  }
+}
 
